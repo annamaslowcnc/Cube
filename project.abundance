@@ -1,0 +1,15 @@
+{
+    "atomType": "Molecule",
+    "name": "Cube",
+    "x": 0,
+    "y": 0,
+    "uniqueID": 1725399198715,
+    "ioValues": [],
+    "topLevel": true,
+    "allAtoms": [],
+    "allConnectors": [],
+    "unitsKey": "Inches",
+    "fileTypeVersion": 1,
+    "compiledBom": {},
+    "filetypeVersion": 1
+}
