@@ -118,11 +118,11 @@
                 },
                 {
                     "name": "Resolution (dpi)",
-                    "ioValue": 72
+                    "ioValue": 96
                 },
                 {
                     "name": "Part Name",
-                    "ioValue": "100by100 test at 72"
+                    "ioValue": "100by100 test at 96"
                 },
                 {
                     "name": "File Type",
