@@ -6,10 +6,174 @@
     "uniqueID": 1725399198715,
     "ioValues": [],
     "topLevel": true,
-    "allAtoms": [],
-    "allConnectors": [],
+    "allAtoms": [
+        {
+            "atomType": "Output",
+            "name": "Output",
+            "x": 0.98,
+            "y": 0.5,
+            "uniqueID": 1726157638185,
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": 1726157686255
+                }
+            ]
+        },
+        {
+            "atomType": "Rectangle",
+            "name": "Rectangle",
+            "x": 0.2635416666666667,
+            "y": 0.4611764705882353,
+            "uniqueID": 1726157657208,
+            "ioValues": [
+                {
+                    "name": "x length",
+                    "ioValue": 100
+                },
+                {
+                    "name": "y length",
+                    "ioValue": 100
+                }
+            ]
+        },
+        {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.45625000000000004,
+            "y": 0.4988235294117647,
+            "uniqueID": 1726157686255,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1726157657208
+                },
+                {
+                    "name": "height",
+                    "ioValue": 10
+                }
+            ]
+        },
+        {
+            "atomType": "Tag",
+            "name": ",cutLayout",
+            "x": 0.5505208333333333,
+            "y": 0.2376470588235294,
+            "uniqueID": 1726157699757,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1726157686255
+                }
+            ],
+            "tags": [
+                "",
+                "cutLayout"
+            ],
+            "cutTag": true
+        },
+        {
+            "atomType": "CutLayout",
+            "name": "Cut Layout",
+            "x": 0.6052083333333333,
+            "y": 0.7976470588235294,
+            "uniqueID": 1726157725376,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1726157686255
+                },
+                {
+                    "name": "Material Thickness",
+                    "ioValue": 0.75
+                },
+                {
+                    "name": "Sheet Width",
+                    "ioValue": 96
+                },
+                {
+                    "name": "Sheet Height",
+                    "ioValue": 48
+                },
+                {
+                    "name": "Part Padding",
+                    "ioValue": 0.25
+                },
+                {
+                    "name": "Sheet Padding",
+                    "ioValue": 3
+                }
+            ]
+        },
+        {
+            "atomType": "Export",
+            "name": "Export",
+            "x": 0.7640625,
+            "y": 0.7388235294117647,
+            "uniqueID": 1726157745530,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": ""
+                },
+                {
+                    "name": "Resolution (dpi)",
+                    "ioValue": 72
+                },
+                {
+                    "name": "Part Name",
+                    "ioValue": "Part Name"
+                },
+                {
+                    "name": "File Type",
+                    "ioValue": "SVG"
+                }
+            ],
+            "type": null,
+            "resolution": 72,
+            "importIndex": 0,
+            "fileName": null
+        }
+    ],
+    "allConnectors": [
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 1726157657208,
+            "ap2ID": 1726157686255
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 1726157686255,
+            "ap2ID": 1726157699757
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 1726157686255,
+            "ap2ID": 1726157638185
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": 1726157686255,
+            "ap2ID": 1726157725376
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": 1726157725376,
+            "ap2ID": 1726157745530
+        }
+    ],
     "unitsKey": "Inches",
     "fileTypeVersion": 1,
-    "compiledBom": {},
+    "compiledBom": [],
     "filetypeVersion": 1
 }
