@@ -89,11 +89,11 @@
                 },
                 {
                     "name": "Sheet Width",
-                    "ioValue": 96
+                    "ioValue": 500
                 },
                 {
                     "name": "Sheet Height",
-                    "ioValue": 48
+                    "ioValue": 500
                 },
                 {
                     "name": "Part Padding",
@@ -104,6 +104,35 @@
                     "ioValue": 3
                 }
             ]
+        },
+        {
+            "atomType": "Export",
+            "name": "Export",
+            "x": 0.7828125,
+            "y": 0.25176470588235295,
+            "uniqueID": 1726157918584,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1726157783475
+                },
+                {
+                    "name": "Resolution (dpi)",
+                    "ioValue": 72
+                },
+                {
+                    "name": "Part Name",
+                    "ioValue": "Part Name"
+                },
+                {
+                    "name": "File Type",
+                    "ioValue": "SVG"
+                }
+            ],
+            "type": null,
+            "resolution": 72,
+            "importIndex": 0,
+            "fileName": null
         }
     ],
     "allConnectors": [
@@ -134,6 +163,13 @@
             "ap2Primary": false,
             "ap1ID": 1726157699757,
             "ap2ID": 1726157783475
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": 1726157783475,
+            "ap2ID": 1726157918584
         }
     ],
     "unitsKey": "Inches",
