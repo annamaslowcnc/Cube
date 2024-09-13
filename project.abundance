@@ -4,7 +4,16 @@
     "x": 0,
     "y": 0,
     "uniqueID": 1725399198715,
-    "ioValues": [],
+    "ioValues": [
+        {
+            "name": "Diameter",
+            "ioValue": 200
+        },
+        {
+            "name": "Height",
+            "ioValue": 45
+        }
+    ],
     "topLevel": true,
     "allAtoms": [
         {
@@ -16,160 +25,85 @@
             "ioValues": [
                 {
                     "name": "number or geometry",
-                    "ioValue": 1726157686255
+                    "ioValue": 1726265645279
                 }
             ]
         },
         {
-            "atomType": "Rectangle",
-            "name": "Rectangle",
-            "x": 0.12447916666666667,
-            "y": 0.4988235294117647,
-            "uniqueID": 1726157657208,
+            "atomType": "Input",
+            "name": "Diameter",
+            "x": 0.013333333333333334,
+            "y": 0.4,
+            "uniqueID": 1726265610047,
+            "ioValues": []
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.1453125,
+            "y": 0.3482352941176471,
+            "uniqueID": 1726265625387,
             "ioValues": [
                 {
-                    "name": "x length",
-                    "ioValue": 100
-                },
-                {
-                    "name": "y length",
-                    "ioValue": 100
+                    "name": "diameter",
+                    "ioValue": 200
                 }
             ]
         },
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.3671875,
-            "y": 0.4894117647058823,
-            "uniqueID": 1726157686255,
+            "x": 0.2942708333333333,
+            "y": 0.29411764705882354,
+            "uniqueID": 1726265645279,
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": 1726157657208
+                    "ioValue": 1726265625387
                 },
                 {
                     "name": "height",
-                    "ioValue": 10
+                    "ioValue": 45
                 }
             ]
         },
         {
-            "atomType": "Tag",
-            "name": "cutLayout,",
-            "x": 0.5078125,
-            "y": 0.20470588235294118,
-            "uniqueID": 1726157699757,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": 1726157686255
-                }
-            ],
-            "tags": [
-                "cutLayout",
-                ""
-            ],
-            "cutTag": true
-        },
-        {
-            "atomType": "CutLayout",
-            "name": "Cut Layout",
-            "x": 0.634375,
-            "y": 0.20470588235294118,
-            "uniqueID": 1726157783475,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": 1726157699757
-                },
-                {
-                    "name": "Material Thickness",
-                    "ioValue": 10
-                },
-                {
-                    "name": "Sheet Width",
-                    "ioValue": 500
-                },
-                {
-                    "name": "Sheet Height",
-                    "ioValue": 500
-                },
-                {
-                    "name": "Part Padding",
-                    "ioValue": 0.25
-                },
-                {
-                    "name": "Sheet Padding",
-                    "ioValue": 3
-                }
-            ]
-        },
-        {
-            "atomType": "Export",
-            "name": "Export",
-            "x": 0.7828125,
-            "y": 0.25176470588235295,
-            "uniqueID": 1726157918584,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": 1726157783475
-                },
-                {
-                    "name": "Resolution (dpi)",
-                    "ioValue": 96
-                },
-                {
-                    "name": "Part Name",
-                    "ioValue": "100by100 test at 96"
-                },
-                {
-                    "name": "File Type",
-                    "ioValue": "SVG"
-                }
-            ],
-            "type": null,
-            "resolution": 72,
-            "importIndex": 0,
-            "fileName": null
+            "atomType": "Input",
+            "name": "Height",
+            "x": 0.013333333333333334,
+            "y": 0.703529411764706,
+            "uniqueID": 1726265657732,
+            "ioValues": []
         }
     ],
     "allConnectors": [
         {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 1726157657208,
-            "ap2ID": 1726157686255
+            "ap1Name": "number or geometry",
+            "ap2Name": "diameter",
+            "ap2Primary": false,
+            "ap1ID": 1726265610047,
+            "ap2ID": 1726265625387
         },
         {
             "ap1Name": "geometry",
             "ap2Name": "geometry",
             "ap2Primary": true,
-            "ap1ID": 1726157686255,
-            "ap2ID": 1726157699757
+            "ap1ID": 1726265625387,
+            "ap2ID": 1726265645279
         },
         {
             "ap1Name": "geometry",
             "ap2Name": "number or geometry",
             "ap2Primary": false,
-            "ap1ID": 1726157686255,
+            "ap1ID": 1726265645279,
             "ap2ID": 1726157638185
         },
         {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
+            "ap1Name": "number or geometry",
+            "ap2Name": "height",
             "ap2Primary": false,
-            "ap1ID": 1726157699757,
-            "ap2ID": 1726157783475
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": false,
-            "ap1ID": 1726157783475,
-            "ap2ID": 1726157918584
+            "ap1ID": 1726265657732,
+            "ap2ID": 1726265645279
         }
     ],
     "unitsKey": "Inches",
